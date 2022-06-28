@@ -25,7 +25,7 @@ h1, h2, a {
 } 
 
 .photos div p {
-    color: black;
+    color: #1F2937;
 }
 
 .photos div p a {
@@ -146,8 +146,8 @@ h2 {
 .donation-outer {
     background-color: white;
     border-radius: 25px;
-    padding: 10px;
-    height: 30px;
+    height: 50px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,8 +156,27 @@ h2 {
 .donation-inner {
     background-color: #3882f6;
     border-radius: 25px;
-    height: 25px;
+    height: 85%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.donation-inner h2 {
-    font-size: 10px;
+.donation-inner a {
+    font-size: 25px;
+}
+
+.endtag {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endtag h1, .endtag a {
+    color: #1F2937;
+    font-size: 20px;
+}
+.endtag a {
+    text-decoration: underline;
 }
