@@ -62,7 +62,6 @@ h2 {
 }
 
 .right {
-     display: flex;
      gap: 35px;
 }
 
@@ -71,7 +70,7 @@ h2 {
 }
 
 .subheader-info {
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
     align-items: center;
     gap: 100px;
